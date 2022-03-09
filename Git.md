@@ -2,35 +2,43 @@
 
 ## Repository
 
-Clone repository
-> `git clone <url>`
+>(Clone reposittoy $) **`git clone <url>`**
 
-Creates a new git repository 
-> `git init`
+>(Creates a new git repository $) **`git init`**
 
-Add a specific file to staging
-> `git add <file>`
+>(Add a specific file to staging $) **`git add <file>`**
 
-Add all changes
-> `git add -A` 
+>(Add all changes $) **`git add -A`**
 
-Commits and description
-> `git commit -m 'Commit message here' `
+>(Commits & description $) **`git commit -m 'Commit message here' `**
 
-Push changes
-> `git push`
+>(Push changes $) **`git push`**
 
-View the status of the files
-> `git status`
+>(View the status of the files $) **`git status`**
 
-Analize difrerences old files
-> `git diff` 
+>(Pull changes $) **`git pull`**
 
-Pull changes
-> `git pull`
+>(Config directory user name $) **`git config --local user.name <user>`**
 
-Config direcotry user name
->`git config --local user.name "John Doe"`
+>(Config directory email $) **`git config --local user.email <email>`**
 
-Config direcoty email
->`git config --local user.email "john@doe.org"`
+>(View config $) **`git config --local list`**
+
+>(Configure credentials global $) **`git config --global credential.helper store`**
+
+## Commit
+
+>(View commit $) **`git show <commit>`**
+
+## Branch
+
+>(New Branch $) **`git branch <name>`**
+
+>(View all branches $) **`git branch -av`**
+
+>(Change to a branch $) **`git checkout <branch>`**
+
+>(Delete local branch $) **`git -d <branch>`**
+
+>(Clear local deleted remote branches $) **`git remote prune origin`**
+
