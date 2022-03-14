@@ -30,6 +30,14 @@
 
 >(View commit $) **`git show <commit>`**
 
+>(Unstage the file to current commit $) **` git reset HEAD`**
+
+>(Unstage everything $) **`git reset`**
+
+>(Discard permanent set to HEAD $) **`git reset –hard <branch>`**
+
+>(Discard permanent and delete changed files $) **`git reset --hard master && git clean -fd`**
+
 ## Branch
 
 >(New Branch $) **`git branch <name>`**
@@ -41,4 +49,5 @@
 >(Delete local branch $) **`git -d <branch>`**
 
 >(Clear local deleted remote branches $) **`git remote prune origin`**
+
 
