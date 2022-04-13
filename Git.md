@@ -51,3 +51,20 @@
 >(Clear local deleted remote branches $) **`git remote prune origin`**
 
 
+## Log
+
+>(Log between bracnches $) **`git log --graph --oneline master..<branch>`**
+
+>(Log without merges commits $) **`git log --no-merges`**
+
+>(Log order by date author) **`git log --author-date-order`**
+
+>(View commit) **`git show <commit>`**
+
+
+
+
+
+
+
+
