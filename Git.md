@@ -50,6 +50,7 @@
 
 >(Clear local deleted remote branches $) **`git remote prune origin`**
 
+>(Create branch from other $) **`git checkout -b feature <branch>`** 
 
 ## Log
 
